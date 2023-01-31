@@ -51,5 +51,5 @@
 
     $("#gradeP").html(letterGrade);
     $("#letter").html(finalGrade);
-    alert("you suck");
+
 });
