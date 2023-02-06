@@ -1,5 +1,7 @@
 ﻿$("#submit").click(function () {
-    
+
+    //This is the mission 5 branch
+
     //setting the weights of the sections for the class grades, parsed to floats
     var assignWeight = parseFloat(0.5);
     var groupWeight = parseFloat(0.1);
