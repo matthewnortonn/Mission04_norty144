@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+@* code here is to have this page set up accross all the pages we dynamically generate. *@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/images/icons8-puzzle-16.png" />
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/default.css" rel="stylesheet" />
+</head>
+
+
+
+<body>
+
+    <nav>
+        <a asp-controller="blah" asp-action="Index">Home</a>
+        <a asp-controller="blah" asp-action="calculator">Grade Calculator</a>
+    </nav>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery/jquery-3.6.3.min.js"></script>
+
+</body>
+
+</html>
